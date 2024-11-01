@@ -1,0 +1,135 @@
+.all-form{
+    height: calc(100vh - 15vh);
+}
+.title{
+    text-align: center;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    padding-top: 0px;
+    border-radius: 20px;
+    width: 40vw;
+    margin-bottom: 40px;
+}
+
+.rows{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.row-form{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 5px;
+}
+
+
+.labels{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.selctives{
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.jdf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-form input{
+    width: calc(200px - 50px);
+    padding: 10px 20px;
+    height: calc(20px - 10px);
+}
+
+.btnstart{
+    display: inline-flex;
+    padding: 10px 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+@media screen and (max-width:930px) {
+    .form{
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .form{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        color: black;
+        padding: 30px;
+        padding-top: 0px;
+        border-radius: 20px;
+        width: 80vw;
+        margin-bottom: 40px;
+    }
+    .row-form{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* gap: 20px; */
+        /* margin: 5px; */
+    }
+    .row-form input{
+        width: calc(150px - 50px);
+        padding: 10px 20px;
+        height: calc(20px - 10px);
+    }
+    .labels{
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+    }
+    
+    .selctives{
+        width: 100px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
